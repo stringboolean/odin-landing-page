@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.header,.footer {
+  background-color: #1F2937;
+  display: flex;
+}
+
+.header {
+  margin-top: 52px; 
+  justify-content: space-between;
+}
+
+.footer {
+  margin-bottom: 52px;
+}
+
+.body {
+  background-color: white;
+  flex: 1;
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  
+}
+
+.navigation {
+  display: flex;
+  gap: 16px;
+}
